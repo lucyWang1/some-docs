@@ -9,8 +9,7 @@
 > ```
 > node -v
 > npm -v
-> 
-```
+> ```
 
 2.使用 npm 国内镜像
 
@@ -19,17 +18,35 @@
 > 现在可以使用cnpm install 代替npm install 安装包
 
 3.借助vue-cli初始化vue项目
-> 安装 <br>
-> `npm install -g @vue/cli`
+> 全局安装vue-cli工具包 <br><br>
+> `cnpm install -g @vue/cli`
+
 
 > 创建项目<br>
-> `vue create my-project` 
 
->或者<br>
+> `vue create my-project` <br><br>
+> 根据命令行交互提示， 安装需要的包
+
+
+>或者可视化创建项目<br>
+
 > `vue ui` <br><br>
-> `cd my-project`<br>
+> 切换目录
+
+> `cd my-project `<br>
+
+> 安装依赖
+
 > `cnpm install`<br>
+
+>  本地运行项目
+
 > `npm run serve`<br>
+
+> 项目打包
+
+> `npm run build`
+
 
 > 网站链接
 
